@@ -13,7 +13,7 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "cmdmdz/cdx-stock-pet": "master"
+        "vendor/adminetl": "^1.0.0"
 
     },
     "require-dev": {
@@ -73,5 +73,6 @@
             "url": "https://github.com/Cmdmdz/cdx-stock-pet"
         }
     ]
+
 
 }
