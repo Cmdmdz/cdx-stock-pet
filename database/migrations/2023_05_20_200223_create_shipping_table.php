@@ -13,16 +13,23 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('order_items', function (Blueprint $table) {
+        Schema::create('shipping', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('order_id');
-            $table->unsignedBigInteger('product_id');
-            $table->integer('quantity');
+            $table->string('country');
+            $table->string('company_name')->nullable();
+            $table->string('address');
+            $table->string('town_city');
+            $table->string('state_county');
+            $table->string('postcode_zip');
+            $table->text('order_notes')->nullable();
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('order_id')->references('id')->on('orders');
-            $table->foreign('product_id')->references('id')->on('products');
         });
     }
+
 
     /**
      * Reverse the migrations.
@@ -31,6 +38,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('order_items');
+        Schema::dropIfExists('shipping');
     }
 };

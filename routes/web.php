@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ReportController;
@@ -8,7 +9,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\CustomerController;
-
+use App\Http\Controllers\CheckoutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -55,16 +56,25 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
 Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
     // Your user routes here
-    // Route::get('/cart',  function () {
-    //     return view('customers.pages.cart');
-    // });
+//     Route::get('/cart',  function () {
+//         return view('customers.pages.cart');
+//     });
     Route::get('/account', [CustomerController::class, 'getDataByAccount'])->name('user.fullname');
-    Route::get('/cart/{id}', [CustomerController::class, 'viewOrder'])->name('cart');
-    Route::post('/order/saveOrUpdate/{productId}/{quantity}', [OrderController::class, 'saveOrUpdateOrder'])->name('order.store');
-
-
+    Route::get('/cart', [OrderController::class, 'findOrderItemByUserAuthAndStatus'])->name('cart');
+    Route::post('/order/saveOrUpdate/{productId}/{quantity}', [OrderController::class, 'saveOrUpdateOrderItem'])->name('order.store');
     // Route::get('/account/orders', [OrderController::class, 'getUserOrders'])->name('account.orders');
+    Route::get('/clear-cart', [OrderController::class, 'clearCart'])->name('order.clearCart');
+    Route::get('/delete-order-item/{id}', [OrderController::class, 'deleteOrderItemById'])->name('delete-order');
+    Route::get('/checkout', [CheckoutController::class, 'index'])->name('check-index');
+    Route::put('/user/update', [UserController::class, 'update'])->name('user.update');
 
 });
+
+Route::get('/is-logged-in', function () {
+    return response()->json([
+        'loggedIn' => Auth::check(),
+    ]);
+});
+
 
 Route::get('/product/{id}', [ProductController::class, 'showProductOnCustomer']);

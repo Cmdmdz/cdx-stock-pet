@@ -123,7 +123,7 @@
 
                                                     <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
                                                             class="ti-heart"></i></a>
-                                                    <a href="cart.html" class="action cart" title="Cart"><i
+                                                    <a href="{{ route('cart')}}" class="action cart" title="Cart"><i
                                                             class="ti-shopping-cart"></i></a>
                                                 </div>
                                             </div>
@@ -158,350 +158,350 @@
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="tab-product-featured">
-                            <div class="row mb-n8">
+{{--                        <div class="tab-pane fade" id="tab-product-featured">--}}
+{{--                            <div class="row mb-n8">--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/5.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <span class="badges">
-                                                <span class="sale">-18%</span>
-                                            </span>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/5.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <span class="badges">--}}
+{{--                                                <span class="sale">-18%</span>--}}
+{{--                                            </span>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">Pet Leaving House</a></h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$47.50</span>
-                                                <span class="old">$50.00</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">Pet Leaving House</a></h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$47.50</span>--}}
+{{--                                                <span class="old">$50.00</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/6.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <span class="badges">
-                                                <span class="sale">-20%</span>
-                                            </span>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/6.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <span class="badges">--}}
+{{--                                                <span class="sale">-20%</span>--}}
+{{--                                            </span>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">Pet Leaving House</a></h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$58.50</span>
-                                                <span class="old">$62.85</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">Pet Leaving House</a></h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$58.50</span>--}}
+{{--                                                <span class="old">$62.85</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/3.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <span class="badges">
-                                                <span class="new">New</span>
-                                            </span>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/3.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <span class="badges">--}}
+{{--                                                <span class="new">New</span>--}}
+{{--                                            </span>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">Wait, You Need This</a>
-                                            </h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$90.00</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">Wait, You Need This</a>--}}
+{{--                                            </h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$90.00</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/7.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <span class="badges">
-                                                <span class="new">New</span>
-                                            </span>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/7.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <span class="badges">--}}
+{{--                                                <span class="new">New</span>--}}
+{{--                                            </span>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">This is the testing</a>
-                                            </h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$78.50</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">This is the testing</a>--}}
+{{--                                            </h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$78.50</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/8.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/8.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">Basic Dog Trainning</a>
-                                            </h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$55.00</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">Basic Dog Trainning</a>--}}
+{{--                                            </h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$55.00</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/1.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <span class="badges">
-                                                <span class="sale">-18%</span>
-                                            </span>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view" title="Quickview"><i
-                                                        class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/1.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <span class="badges">--}}
+{{--                                                <span class="sale">-18%</span>--}}
+{{--                                            </span>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view" title="Quickview"><i--}}
+{{--                                                        class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">An Animal Album</a></h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$80.50</span>
-                                                <span class="old">$85.80</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">An Animal Album</a></h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$80.50</span>--}}
+{{--                                                <span class="old">$85.80</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/2.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <span class="badges">
-                                                <span class="sale">-20%</span>
-                                            </span>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" title="Quickview"
-                                                    data-bs-toggle="modal" data-bs-target="#quick-view"><i
-                                                        class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/2.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <span class="badges">--}}
+{{--                                                <span class="sale">-20%</span>--}}
+{{--                                            </span>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" title="Quickview"--}}
+{{--                                                    data-bs-toggle="modal" data-bs-target="#quick-view"><i--}}
+{{--                                                        class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">Animal For Life</a></h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$75.50</span>
-                                                <span class="old">$82.85</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">Animal For Life</a></h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$75.50</span>--}}
+{{--                                                <span class="old">$82.85</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                                <!-- Product Start -->
-                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">
-                                    <div class="product">
-                                        <!-- Thumb Start  -->
-                                        <div class="thumb">
-                                            <a href="single-product.html" class="image">
-                                                <img class="fit-image" src="assets/images/products/medium-product/4.png"
-                                                    alt="Product" />
-                                            </a>
-                                            <div class="action-wrapper">
-                                                <a href="#/" class="action quickview" data-bs-toggle="modal"
-                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>
-                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i
-                                                        class="ti-heart"></i></a>
-                                                <a href="cart.html" class="action cart" title="Cart"><i
-                                                        class="ti-shopping-cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Thumb End  -->
+{{--                                <!-- Product Start -->--}}
+{{--                                <div class="col-12 col-sm-6 col-lg-3 product-wrapper mb-8">--}}
+{{--                                    <div class="product">--}}
+{{--                                        <!-- Thumb Start  -->--}}
+{{--                                        <div class="thumb">--}}
+{{--                                            <a href="single-product.html" class="image">--}}
+{{--                                                <img class="fit-image" src="assets/images/products/medium-product/4.png"--}}
+{{--                                                    alt="Product" />--}}
+{{--                                            </a>--}}
+{{--                                            <div class="action-wrapper">--}}
+{{--                                                <a href="#/" class="action quickview" data-bs-toggle="modal"--}}
+{{--                                                    data-bs-target="#quick-view"><i class="ti-plus"></i></a>--}}
+{{--                                                <a href="wishlist.html" class="action wishlist" title="Wishlist"><i--}}
+{{--                                                        class="ti-heart"></i></a>--}}
+{{--                                                <a href="cart.html" class="action cart" title="Cart"><i--}}
+{{--                                                        class="ti-shopping-cart"></i></a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Thumb End  -->--}}
 
-                                        <!-- Content Start  -->
-                                        <div class="content">
-                                            <h5 class="title"><a href="single-product.html">Pet Food Corner</a></h5>
-                                            <span class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </span>
-                                            <span class="price">
-                                                <span class="new">$105.00</span>
-                                            </span>
-                                        </div>
-                                        <!-- Content End  -->
-                                    </div>
-                                </div>
-                                <!-- Product End -->
+{{--                                        <!-- Content Start  -->--}}
+{{--                                        <div class="content">--}}
+{{--                                            <h5 class="title"><a href="single-product.html">Pet Food Corner</a></h5>--}}
+{{--                                            <span class="rating">--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star"></i>--}}
+{{--                                                <i class="fa fa-star-half-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                                <i class="fa fa-star-o"></i>--}}
+{{--                                            </span>--}}
+{{--                                            <span class="price">--}}
+{{--                                                <span class="new">$105.00</span>--}}
+{{--                                            </span>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- Content End  -->--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- Product End -->--}}
 
-                            </div>
-                        </div>
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                     </div>
                 </div>
@@ -617,12 +617,10 @@
                                 </div>
                             </div>
                             <!-- Quantity End -->
-
-                            <!-- Inventory Start -->
-                            <div class="inventory-varient available-stock">
-                                <!-- The stock quantity will be updated here -->
+                            <!-- Error Message Start -->
+                            <div id="errorMessage" class="alert alert-danger d-none" role="alert">
                             </div>
-                            <!-- Inventory End -->
+                            <!-- Error Message End -->
 
 
                             <!-- Cart Button Start -->
@@ -630,37 +628,13 @@
                                 <div class="action-cart-btn-wrapper d-flex justify-content-start">
                                     <div class="add-to_cart">
                                         <a class="btn btn-primary btn-hover-dark rounded-0" href="#"
-                                            data-product-id="" onclick="addToCart(event)">Add to cart</a>
+                                            data-product-id=""  onclick="addToCart(event)">Add to cart</a>
 
                                     </div>
                                     <a href="wishlist.html" title="Wishlist" class="action"><i class="ti-heart"></i></a>
                                 </div>
                             </div>
                             <!-- Cart Button End -->
-
-
-                            <!-- Social Shear Start -->
-                            <div class="social-share">
-                                <div class="widget-social justify-content-center mb-6">
-                                    <a title="Twitter" href="#/"><i class="icon-social-twitter"></i></a>
-                                    <a title="Instagram" href="#/"><i class="icon-social-instagram"></i></a>
-                                    <a title="Linkedin" href="#/"><i class="icon-social-linkedin"></i></a>
-                                    <a title="Skype" href="#/"><i class="icon-social-skype"></i></a>
-                                    <a title="Dribble" href="#/"><i class="icon-social-dribbble"></i></a>
-                                </div>
-                            </div>
-                            <!-- Social Shear End -->
-
-                            <!-- Payment Option Start -->
-                            <div class="payment-option mt-4 d-flex justify-content-start">
-                                <span><strong>Payment: </strong></span>
-                                <a href="#">
-                                    <img class="fit-image ms-1" src="assets/images/payment/payment_large.png"
-                                        alt="Payment Option Image">
-                                </a>
-                            </div>
-                            <!-- Payment Option End -->
-
                         </div>
                         <!-- Product Summery End -->
 

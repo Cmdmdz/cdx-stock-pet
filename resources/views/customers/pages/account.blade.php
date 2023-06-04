@@ -9,7 +9,7 @@
                      <div class="breadcrumb-wrapper">
                          <h2 class="breadcrumb-title">My Account</h2>
                          <ul>
-                             <li><a href="index.html">Home</a></li>
+                             <li><a href="{{url('/')}}">Home</a></li>
                              <li>My Account</li>
                          </ul>
                      </div>
@@ -104,7 +104,7 @@
                                                                  <td>{{ ucfirst($order->status) }}</td>
                                                                  <td>${{ number_format($order->total_price, 2) }}</td>
                                                                  <td>
-                                                                    <a href="{{ route('cart', $order->id) }}"
+                                                                    <a href="{{ route('cart')}}"
                                                                         class="btn btn btn-dark btn-hover-primary btn-sm rounded-0">View</a>
                                                                 </td>
                                                              </tr>
