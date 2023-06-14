@@ -10,6 +10,8 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\CheckoutController;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -78,3 +80,10 @@ Route::get('/is-logged-in', function () {
 
 
 Route::get('/product/{id}', [ProductController::class, 'showProductOnCustomer']);
+Route::get('/shop', function () {
+    return view('customers.pages.shop');
+});
+
+Route::get('/about', function () {
+    return view('customers.pages.about');
+});

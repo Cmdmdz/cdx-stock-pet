@@ -162,7 +162,7 @@ class OrderController extends Controller
         // Restore the product quantity in stock
         $stock = DB::table('stocks')->where('product_id', $orderItem->product_id)->first();
         DB::table('stocks')->where('product_id', $orderItem->product_id)->update(['quantity' => $stock->quantity + $orderItem->quantity]);
-
+            
         // Now delete the orderItem
         DB::table('order_items')->where('id', $id)->delete();
 

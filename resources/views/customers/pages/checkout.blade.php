@@ -9,7 +9,7 @@
                     <div class="breadcrumb-wrapper">
                         <h2 class="breadcrumb-title">Checkout</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
                             <li>Checkout</li>
                         </ul>
                     </div>
